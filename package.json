@@ -1,0 +1,27 @@
+{
+  "name": "vizmo-instagram-dm-automation",
+  "version": "1.0.0",
+  "description": "Instagram webhook automation service with rate limiting and message queue for VIZMO",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "node --watch index.js"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "keywords": [
+    "instagram",
+    "webhook",
+    "automation",
+    "vizmo"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^1.7.9",
+    "better-sqlite3": "^11.7.0",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "node-cron": "^3.0.3"
+  }
+}
